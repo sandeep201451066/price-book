@@ -1,0 +1,43 @@
+
+.outer_wrap {
+    background-color: #191919;
+    float: left;
+    width: 100%;
+    display: block;
+}
+.top_head {
+    width: 990px;
+    margin: 0 auto;
+    height: 25px;
+    padding: 7px 0;
+    box-sizing: border-box;
+    z-index: 999999;
+    position: relative;
+}
+.Latest_titl {
+    font-size: 11px;
+    float: left;
+    padding: 0 20px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #6294ce;
+}
+.top_head_right{
+    float: right;
+    padding: 0px 20px;
+}
+.top_head_right ul{
+    display: inline-flex;
+    margin: 0px;
+    
+}
+.top_head_lft{
+    font-size: 10px;
+    color: #eee;
+    float: left;
+    padding: 0 20px;
+}
+.top_head_right ul li{
+    padding: 0 20px;
+    list-style-type: none;
+}

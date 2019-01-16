@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
-
+import './header.css';
 class Header extends Component {
     constructor(props) {
         super();
@@ -10,9 +10,23 @@ class Header extends Component {
 
     render() {
         return (
-            <div>
-                <h1>vsvdvdvdsv  c c c xv sv sd v v v sv svs ds</h1>
-            </div>
+            <div className="outer_wrap">
+                <div className="top_head">
+                    <div className="top_head_lft">cscscsc v svv v svsv  </div>
+                    <div className="top_head_right">
+                    <ul>
+                        <div class="Latest_titl">bdddgdg</div>
+
+                       
+                            <li>bdbd</li>
+                            <li>bdbd</li>
+                            <li>bdbd</li>
+                            <li>bdbd</li>
+                            <li>bbd</li>
+                        </ul>
+                    </div>
+                </div >
+            </div >
         );
     }
 }
