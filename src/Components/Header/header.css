@@ -1,18 +1,36 @@
 
 .outer_wrap {
-    background-color: #191919;
+    background-color: #262626;
     float: left;
     width: 100%;
+    height: 100%;
+    display: block;
+}
+.logo_container{
+    background-color: #262626;
+    float: left;
+    width: 100%;
+    padding-top: 10px;
     display: block;
 }
 .top_head {
     width: 990px;
-    margin: 0 auto;
+    margin: 0px auto;
     height: 25px;
-    padding: 7px 0;
+    padding: 0px;
     box-sizing: border-box;
     z-index: 999999;
     position: relative;
+}
+.logo_top_head{
+    width: 990px;
+    margin: 0px auto;
+    height: auto;
+    padding: 5px;
+    box-sizing: border-box;
+    z-index: 999999;
+    position: relative;
+    display: flex;
 }
 .Latest_titl {
     font-size: 11px;
@@ -24,20 +42,79 @@
 }
 .top_head_right{
     float: right;
-    padding: 0px 20px;
+    padding: 0px;
 }
 .top_head_right ul{
     display: inline-flex;
-    margin: 0px;
+    margin-top: 0px;
+    color: #fff;
     
 }
 .top_head_lft{
-    font-size: 10px;
     color: #eee;
     float: left;
-    padding: 0 20px;
+    padding: 5px 10px;
 }
 .top_head_right ul li{
-    padding: 0 20px;
+    padding: 0 10px;
     list-style-type: none;
+}
+
+ul{
+    margin: 0px;
+}
+.font-size{
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.ul_border{
+border-right: 1px solid #ddd;
+}
+.top_logo{
+    display: -webkit-inline-flex;
+}
+.top_logo img{
+    width: 50px;
+    height: 50px;
+}
+.searchBarCss {
+    display: flex;
+    height: 40px;
+    padding-left: 80px;
+    /* overflow: hidden; */
+}
+.AllItems{
+    border-radius: 0px !important;
+    background-color: #d6d6d6 !important;
+    border: 0px !important;
+    padding: 1.27rem 25px !important;
+    color: #666 !important;
+    font-weight: 800 !important;
+}
+.searchfield{
+    border-radius: 0px !important;
+    border: 0px !important;
+    padding: 8px 20px !important;
+    width: 350px;
+    border-radius: 3px 0 0 3px !important;
+    font-size: 12px;
+}
+.loginSignup{
+    padding: 8px 90px;
+}
+.loginSignup a{
+    padding-left: 20px;
+    font-size: 14px;
+}
+/* #5e5e5e */
+.searchbtn{
+    background: #5e5e5e !important;
+    border-radius: 0px !important;
+    border: 0px !important;
+    padding: 13px 25px !important;
+    font-size: 12px !important;
+    border-radius: 0 3px 3px 0 !important;
+}
+.searchIcon{
+    padding-right: 5px;
 }
