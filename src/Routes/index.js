@@ -2,7 +2,7 @@ import React from 'react';
 import { Route } from 'react-router';
 import { BrowserRouter as Router, Switch } from 'react-router-dom';
 
-import Header from '../Components/Header/index'
+import Dashboard from '../Components/Dashboard/index'
 
 
 const MyRoutes = (
@@ -12,7 +12,7 @@ const MyRoutes = (
                 path="/"
                 render={a => {
                     return (
-                        <Header />
+                        <Dashboard />
                         
                     )
                 }}

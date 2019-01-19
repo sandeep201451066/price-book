@@ -118,3 +118,13 @@ border-right: 1px solid #ddd;
 .searchIcon{
     padding-right: 5px;
 }
+.dropdown_container{
+    background-color: #ccc;
+    float: left;
+    width: 100%;
+    padding-top: 10px;
+    display: block;
+}
+.dropDown{
+    height: 30px;
+}

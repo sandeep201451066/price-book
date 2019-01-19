@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 import './header.css';
 import MiddleHeader from './middle_header';
+import DropDown from './drop_down';
 class Header extends Component {
     constructor(props) {
         super();
@@ -28,6 +29,7 @@ class Header extends Component {
                 </div>
             </div>
             <MiddleHeader></MiddleHeader>
+            <DropDown></DropDown>
             </div>
         );
     }
